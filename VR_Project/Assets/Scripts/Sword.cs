@@ -15,7 +15,7 @@ public class Sword : MonoBehaviour
     public void ObjectSlashed(OnTriggerDelegation delegation)
     {
         // Si no es un objecto cortable, ignorarlo
-        if (delegation.Other.gameObject.layer != 8)
+        if (delegation.Other.gameObject.layer != 3)
             return;
 
         // Objeto que se ha atravesado
