@@ -620,7 +620,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &223881483
 GameObject:
@@ -1138,6 +1138,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 680177033}
   m_Mesh: {fileID: 3680687292192122401, guid: c48ebd63d86328549b9b3cff107f3a81, type: 3}
+--- !u!4 &682748303 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 485514, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+  m_PrefabInstance: {fileID: 1958750150}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &700397748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10852,7 +10857,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 682748303}
     m_Modifications:
     - target: {fileID: 8213732056650271354, guid: b36552b24e9c07a4fb428b4ba522f150, type: 3}
       propertyPath: sliceableLayerMask.m_Bits
@@ -10860,19 +10865,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8213732056650271355, guid: b36552b24e9c07a4fb428b4ba522f150, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8213732056650271355, guid: b36552b24e9c07a4fb428b4ba522f150, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.34
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8213732056650271355, guid: b36552b24e9c07a4fb428b4ba522f150, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.19
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8213732056650271355, guid: b36552b24e9c07a4fb428b4ba522f150, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 17.99
+      value: -2.375
       objectReference: {fileID: 0}
     - target: {fileID: 8213732056650271355, guid: b36552b24e9c07a4fb428b4ba522f150, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10880,15 +10885,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8213732056650271355, guid: b36552b24e9c07a4fb428b4ba522f150, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8213732056650271355, guid: b36552b24e9c07a4fb428b4ba522f150, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8213732056650271355, guid: b36552b24e9c07a4fb428b4ba522f150, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8213732056650271355, guid: b36552b24e9c07a4fb428b4ba522f150, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10904,7 +10909,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8213732056650271357, guid: b36552b24e9c07a4fb428b4ba522f150, type: 3}
       propertyPath: m_Name
-      value: Sword
+      value: Katana
       objectReference: {fileID: 0}
     - target: {fileID: 8213732057786933331, guid: b36552b24e9c07a4fb428b4ba522f150, type: 3}
       propertyPath: Exit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -11460,19 +11465,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1463651954900009512, guid: b681883a77cf07a4189fde18c239dfb9, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1463651954900009512, guid: b681883a77cf07a4189fde18c239dfb9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.421438
+      value: -0.71
       objectReference: {fileID: 0}
     - target: {fileID: 1463651954900009512, guid: b681883a77cf07a4189fde18c239dfb9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.11
+      value: 2.37
       objectReference: {fileID: 0}
     - target: {fileID: 1463651954900009512, guid: b681883a77cf07a4189fde18c239dfb9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.43296
+      value: 11.43
       objectReference: {fileID: 0}
     - target: {fileID: 1463651954900009512, guid: b681883a77cf07a4189fde18c239dfb9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11505,6 +11510,10 @@ PrefabInstance:
     - target: {fileID: 1463651954900009513, guid: b681883a77cf07a4189fde18c239dfb9, type: 3}
       propertyPath: m_Name
       value: Dron
+      objectReference: {fileID: 0}
+    - target: {fileID: 1463651955046033423, guid: b681883a77cf07a4189fde18c239dfb9, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b681883a77cf07a4189fde18c239dfb9, type: 3}
