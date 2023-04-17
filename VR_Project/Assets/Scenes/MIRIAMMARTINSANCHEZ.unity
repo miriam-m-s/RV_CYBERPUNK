@@ -834,6 +834,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7da349d03d605be4b8d362a1be7a2aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &352601251 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8213732056650271355, guid: b36552b24e9c07a4fb428b4ba522f150, type: 3}
+  m_PrefabInstance: {fileID: 2053217504}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &367676101
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,6 +1060,38 @@ Transform:
   m_Father: {fileID: 851993777}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &632872075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 632872076}
+  m_Layer: 26
+  m_Name: KatanaPivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &632872076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632872075}
+  m_LocalRotation: {x: 0.70710576, y: -0.7071079, z: -0.000000021073392, w: -0.000000021073458}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 352601251}
+  m_Father: {fileID: 682748303}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: -90}
 --- !u!1 &680177033
 GameObject:
   m_ObjectHideFlags: 0
@@ -10857,7 +10894,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 682748303}
+    m_TransformParent: {fileID: 632872076}
     m_Modifications:
     - target: {fileID: 8213732056650271354, guid: b36552b24e9c07a4fb428b4ba522f150, type: 3}
       propertyPath: sliceableLayerMask.m_Bits
@@ -10865,7 +10902,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8213732056650271355, guid: b36552b24e9c07a4fb428b4ba522f150, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8213732056650271355, guid: b36552b24e9c07a4fb428b4ba522f150, type: 3}
       propertyPath: m_LocalPosition.x
