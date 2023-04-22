@@ -28522,6 +28522,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3115292631596432376, guid: 4e660da2419d1614198b2c073ddf863d,
+        type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3346848182839670810, guid: 4e660da2419d1614198b2c073ddf863d,
+        type: 3}
+      propertyPath: m_TrackingStateInput.m_Action.m_Id
+      value: b65fd813-c75a-4a52-801f-2ca1c01ee962
+      objectReference: {fileID: 0}
     - target: {fileID: 4356456892009499901, guid: 4e660da2419d1614198b2c073ddf863d,
         type: 3}
       propertyPath: m_RootOrder
