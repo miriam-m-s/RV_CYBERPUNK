@@ -15439,6 +15439,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Soda_13 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7722146507121908572, guid: 9a7261260165fa24792e43f21e154190,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 56858fc2df6e39841932083dd601b1d3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a7261260165fa24792e43f21e154190, type: 3}
 --- !u!4 &1666702101 stripped
@@ -23611,7 +23616,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8978355711716940419, guid: 00f8f04432f38e34c92efe26527d7040, type: 3}
+  - {fileID: 2100000, guid: 7761e463847ade84ca854d73a30d6a98, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24077,7 +24082,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -7268281639350667469, guid: 00f8f04432f38e34c92efe26527d7040, type: 3}
+  - {fileID: 2100000, guid: 7761e463847ade84ca854d73a30d6a98, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25570,6 +25575,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Box_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5987087592891700762, guid: bc3ce0131e5c2ed4eaa6340cf5d9b8f3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8084452966463819043, guid: bc3ce0131e5c2ed4eaa6340cf5d9b8f3,
         type: 3}
