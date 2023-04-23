@@ -15,7 +15,7 @@ public class RagdollController : MonoBehaviour
         SetEnableRagdoll(false);
     }
 
-    void SetEnableRagdoll(bool enabled)
+    public void SetEnableRagdoll(bool enabled)
     {
         bool kinematic = !enabled;
         foreach (Rigidbody rb in allRb)
