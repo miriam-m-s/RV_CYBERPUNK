@@ -29,4 +29,16 @@ public class Sword : MonoBehaviour
         // Destruir el collider asignado al objeto cortado
         Destroy(slicedObj);
     }
+
+    public void ObjectHitted(OnTriggerDelegation delegation)
+    {
+        // Si no es un objecto cortable, ignorarlo
+        if (delegation.Other.gameObject.layer != 7)
+            return;
+
+        // Objeto que se ha atravesado
+        GameObject gObj = delegation.Other.gameObject;
+
+        gObj.GetComponentInParent<RagdollController>().SetEnableRagdoll(true);
+    }
 }
