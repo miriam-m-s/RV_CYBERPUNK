@@ -2088,7 +2088,7 @@ GameObject:
   - component: {fileID: 4842832413598480486}
   - component: {fileID: 1381131106400017403}
   m_Layer: 0
-  m_Name: bar_stool_01 (8)
+  m_Name: Stool_Throwable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
